@@ -6,7 +6,7 @@
 /*   By: bbenidar <bbenidar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 12:56:29 by bbenidar          #+#    #+#             */
-/*   Updated: 2022/11/17 13:08:37 by bbenidar         ###   ########.fr       */
+/*   Updated: 2022/11/17 16:37:49 by bbenidar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ char	*ft_strjoin(char *left_str, char *buff);
 char	*ft_strchr(char *s, int c);
 size_t	ft_strlen(char *str);
 char	*get_next_line(int fd);
-char	*ft_newlstr(char *left_str);
-char	*ft_get_line(char *left_str);
+char	*ft_newlstr(char *lbaki);
+char	*ft_get_line(char *lbaki);
 char	*ft_read_lbaki(int fd, char *lbaki);
 
 #endif
